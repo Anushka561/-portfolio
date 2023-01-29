@@ -88,7 +88,7 @@ const Contact = () => {
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
-       
+        {/* <p id='err' style={{color:'red',display:'none',margin:'10px'}} ref={error}>invalid input</p> */}
 {/*      
         <form action="https://getform.io/f/5b44b455-4fe2-474a-867f-520259806013" ref={form} onSubmit={handleClick} method='POST'>
           <input type="text" name='name' value={toSend.name}  onChange={handleChange} placeholder='Your Full Name' required />
@@ -110,9 +110,9 @@ const Contact = () => {
       </div>
 
         </form>
-        {/* <p id='err' style={{color:'red',display:'none',margin:'10px'}} ref={error}>invalid input</p> */}
       </div>
     </section>
+ 
   )
 }
 
