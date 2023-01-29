@@ -103,7 +103,7 @@ const Contact = () => {
           <button   type='submit' className='btn btn-primary'>Send Message</button>
           <div className='social'>
      
-    <a href="https://www.linkedin.com/in/anushka-sahu-bb8bb3227/"><FaLinkedin/></a>
+    <a href="https://www.linkedin.com/in/anushka-sahu/"><FaLinkedin/></a>
     <a href="https://github.com/Anushka561"><FiGithub/></a>
     <a href="https://twitter.com/CODEYko"><IoLogoTwitter/></a>
     <a href="https://medium.com/@anushka3935"><AiOutlineMedium/></a></div>
