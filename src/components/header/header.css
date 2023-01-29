@@ -1,0 +1,85 @@
+
+
+header {
+    height: 100vh;
+    padding-top: 4rem;
+    /* overflow: hidden;  */
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 21rem;
+    height: 21rem;
+    position: absolute;
+    left: calc(50% - 10rem);
+    margin-top: 4rem;
+    border-radius: 50%;
+    box-shadow: #4ef5f5 3px 1px 3px 1px;
+    overflow: hidden;
+    background:url(../../assets/anku3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -70px;
+    /* background-position-y: -90px; */
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+
+
+
+@media screen and (max-width:1023px) {
+    header {
+        height: 80vh;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    header {
+        height: 81vh;
+    }
+.me{
+    height: 19rem;
+    width: 19rem;
+}
+   
+}
+@media screen and (min-height:1000px) and (max-height:1400px)  {
+
+    header {
+        height: 75vh;
+    }
+    .me{
+        height: 22rem;
+        width: 22rem;
+    }
+    header h1{
+        font-size: 4rem;
+    }
+    header h5{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .me{
+        width:15rem;
+        height:15rem;
+        left: calc(50% - 7.5rem);
+    }
+    header h1{
+font-size: 2rem;
+    }
+    
+}
