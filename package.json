@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Anushka561.github.io/-portfolio",
+  "homepage": "https://portfolio-anushka561.vercel.app",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -14,8 +14,7 @@
     "swiper": "^8.4.6"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
