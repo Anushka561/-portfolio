@@ -1,48 +1,31 @@
 
 
-
+/* 
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-}
+} */
 
-.about__me {
+/* .about__me {
     width: 100%;
     aspect-ratio: 1/0.9;
     border-radius: 2rem;
-  
+  height:80% ;
     background: url(../../assets/anku.jpg);
     
     background-position: center;
     background-size: cover;
-    background-position-y: -110px;
+    background-position-y: -100px;
      
     display: grid;
     place-items: center;
-}
+} */
 
 
 
-.about__cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
-}
 
-.about__card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding:2rem;
-    text-align: center;
-    transition: var(--transition);
-}
 
-.about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary);
-}
 
 .about__icon{
     color: var(--color-primary);

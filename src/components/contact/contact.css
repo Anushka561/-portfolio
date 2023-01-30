@@ -63,7 +63,14 @@ input,textarea{
        width: var(--container-width-sm);
     }
     .contact_socials{
-        margin-bottom: 2.6rem;
+        margin-bottom: 2.3rem;
+    }
+    .contact_socials .social a{
+        display:flex;
+
+    justify-content: center;
+    align-items:center;
+    padding: 0.6rem 0.9rem;
     }
 }
 @media screen and (max-width:300px) {
