@@ -8,7 +8,7 @@ const Social = () => {
   return (
     <div className='social_nav'>
     
-    <a href="https://facebook.com"><FaLinkedin/></a>
+    <a href="https://www.linkedin.com/in/anushka-sahu/"><FaLinkedin/></a>
     <a href="https://github.com/Anushka561"><FiGithub/></a>
     <a href="https://twitter.com/CODEYko"><IoLogoTwitter/></a>
     <a href="https://medium.com/@anushka3935"><AiOutlineMedium/></a>
