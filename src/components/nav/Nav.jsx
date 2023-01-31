@@ -11,7 +11,7 @@ const Nav = () => {
     <nav>
       <a
         to="#header"
-        onClick={() => setActiveNav("#")}
+        onClick={() => setActiveNav("#header")}
         className={activeNav === "#header" ? "active" : ""}
       >
         <AiOutlineHome />
