@@ -27,20 +27,7 @@
 
 
 
-.about__icon{
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
 
-.about__card h5{
-    font-size: 0.95rem;
-}
-
-.about__card small{
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
 
 .about__content p{
     margin: 2rem 0 2.6rem ;
@@ -74,10 +61,7 @@
         margin: 0 auto 3rem;
        }
 
-       .about__cards{
-        grid-template-columns: repeat(2,1fr);
-        gap: 1rem;
-       }
+ 
 
        .about__content{
         text-align: center;
