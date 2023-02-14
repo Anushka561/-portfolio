@@ -1,5 +1,5 @@
 import React, { useState ,useRef} from 'react'
-// import {send} from 'emailjs-com';
+
 import './contact.css'
 import emailjs from '@emailjs/browser';
 // import {MdOutlineEmail} from 'react-icons/md'
