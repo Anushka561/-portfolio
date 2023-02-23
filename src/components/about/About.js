@@ -16,8 +16,8 @@ const About = () => {
         <div className="about__content">
    
           <p>
-          I am a passionate front-end developer with a love for design. I love to make the website look beautiful.  I am a WEB3 enthusiast. 
-          I am also learning MERN stack development and BlockChain development
+          I am a passionate Web developer with a love for design. I love to make the website look beautiful.  I am also a WEB3 enthusiast 
+    and learning BlockChain development 
       
           <br/>And yeah!!! sometimes I write too.
           </p>
