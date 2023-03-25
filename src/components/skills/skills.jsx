@@ -19,7 +19,7 @@ const Skills = () => {
         },
         {
          name:"MONGO DB", 
-         border:'#264de4',
+         border:'#4e9645',
          image:MONGO
         },
         {
@@ -30,7 +30,7 @@ const Skills = () => {
        
         {
          name:"TYPESCRIPT",
-         border:'#f7df1e',
+         border:'#1a87d0',
          image:TP
         },
         {
