@@ -2,13 +2,13 @@ import React from 'react'
 import './skills.css';
 import cpp from '../../assets/cpp.png';
 import c from '../../assets/c.png';
-import css from '../../assets/css3.png';
-import js from '../../assets/js.png';
+// import css from '../../assets/css3.png';
+import TP from '../../assets/TP.PNG';
 import node from '../../assets/noode.png';
-import html from '../../assets/html.png';
+import MONGO from '../../assets/MONGO.PNG';
 import solidity from '../../assets/solidity.png';
 import git from '../../assets/git.png';
-import tailwind from '../../assets/tailwind.png';
+import express from '../../assets/express.png';
 import react from '../../assets/react.png';
 const Skills = () => {
      const skill=[
@@ -18,9 +18,9 @@ const Skills = () => {
          image:c
         },
         {
-         name:"CSS3", 
+         name:"MONGO DB", 
          border:'#264de4',
-         image:css
+         image:MONGO
         },
         {
          name:"C++",
@@ -29,9 +29,9 @@ const Skills = () => {
         },
        
         {
-         name:"JAVASCRIPT",
+         name:"TYPESCRIPT",
          border:'#f7df1e',
-         image:js
+         image:TP
         },
         {
          name:"REACT",
@@ -54,9 +54,9 @@ const Skills = () => {
          image:git
         },
         {
-         name:"TAILWIND CSS",
+         name:"EXPRESS JS",
          border:'#16beb8',
-         image:tailwind
+         image:express
         }
         
     ]
